@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/splach-coder/learningReact/static/css/main.06861206.css",
+    "main.js": "/splach-coder/learningReact/static/js/main.7c52dc73.js",
+    "static/media/img.jpg": "/splach-coder/learningReact/static/media/img.3fde58422f89d2de09d6.jpg",
+    "index.html": "/splach-coder/learningReact/index.html",
+    "static/media/burger.svg": "/splach-coder/learningReact/static/media/burger.3d8db99dc14bc32ec13ae347bb682bce.svg",
+    "main.06861206.css.map": "/splach-coder/learningReact/static/css/main.06861206.css.map",
+    "main.7c52dc73.js.map": "/splach-coder/learningReact/static/js/main.7c52dc73.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06861206.css",
+    "static/js/main.7c52dc73.js"
+  ]
+}
