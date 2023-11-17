@@ -14,7 +14,7 @@ function Card() {
     <div className="w-[317px] h-[780px] drop-shadow-md">
       <img
         src={image}
-        alt="image"
+        alt="the card things"
         className="w-[317px] h-[217px] object-cover rounded-tl-[10px] rounded-tr-[10px]"
       />
       <div className="h-[399px] flex flex-col items-center justify-between bg-[#f5f5f5] dark:bg-[#1A1B21] pt-[20px] pb-[40px] px-[35px]">
