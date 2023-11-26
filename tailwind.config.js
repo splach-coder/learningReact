@@ -10,6 +10,7 @@ module.exports = {
       fontFamily: {
         inter: ["Inter", "sans-serif"],
         poppins: ["Poppins", "sans-serif"],
+        karla: ["Karla", "sans-serif"],
       },
     },
   },
