@@ -2,27 +2,24 @@
 import React, { useState, useEffect } from "react";
 
 const ThemeSwitcher = () => {
-  const [darkMode, setDarkMode] = useState(false);
-
-  useEffect(() => {
-    const isDarkMode = localStorage.getItem("darkMode") === "true";
-    setDarkMode(isDarkMode);
-  }, []);
+  const [darkMode, setDarkMode] = useState(
+    localStorage.getItem("darkMode") === "true"
+  );
 
   useEffect(() => {
     document.documentElement.classList.toggle("dark", darkMode);
     localStorage.setItem("darkMode", darkMode);
   }, [darkMode]);
 
-  const toggleDarkMode = () => {
+  function toggleDarkMode() {
     setDarkMode((prevMode) => !prevMode);
-  };
+  }
 
   return (
     <button
       onClick={toggleDarkMode}
       type="button"
-      className="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 ms-auto md:ms-0">
+      className="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-lg text-sm p-2.5 ms-auto md:ms-0">
       <svg
         className={`${darkMode ? "hidden" : ""} w-5 h-5`}
         fill="currentColor"

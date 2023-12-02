@@ -7,14 +7,6 @@
     font-family: 'Inter', sans-serif;
 }
 
-#root {
-    position: relative;
-    height: 100vh;
-    background: #282C34;
-    color: white;
-}
-
-
 header {
     position: relative;
     width: 100%;
@@ -22,7 +14,6 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 12px 36px;
-    background: #21252B;
 }
 
 .logo {
