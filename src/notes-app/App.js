@@ -8,17 +8,12 @@ import { setSelectionRange } from "@testing-library/user-event/dist/utils";
 
 export default function App() {
   const [notes, setNotes] = useState(getNotes() || []);
-  console.log(notes);
 
   const [currentNoteIndex, setCurrentNoteIndex] = useState(0);
-
-  console.log(currentNoteIndex);
 
   const [currentNoteId, setCurrentNoteId] = useState(
     (notes.length > 0 && notes[0].id) || ""
   );
-
-  console.log(currentNoteId);
 
   function createNewNote() {
     const name = prompt("Enter note name please");
